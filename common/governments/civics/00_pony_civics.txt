@@ -145,7 +145,7 @@ pony_stuff_gov_united_ponies = {
             country_influence_produces_mult = 0.25
             country_base_influence_produces_add = 2
             country_government_civic_points_add = 2
-            country_admin_cap_add = 25
+            empire_size_penalty_mult = -0.25
         }
 }
 
@@ -188,7 +188,7 @@ pony_stuff_gov_united_ponies_hive = {
             country_influence_produces_mult = 0.25
             country_base_influence_produces_add = 2
             country_government_civic_points_add = 2
-            country_admin_cap_add = 40
+            empire_size_penalty_mult = -0.40
         }
 }
 
@@ -455,7 +455,7 @@ pony_stuff_gov_ling = {
         }
 
         modifier = {
-            country_admin_cap_add = 25
+            empire_size_penalty_mult = -0.25
             planet_jobs_slave_produces_mult = 0.3
             country_pop_enslaved_mult = 0.1
             pop_cat_slave_political_power = -0.05
@@ -505,7 +505,7 @@ pony_stuff_gov_ling_hive = {
         }
 
         modifier = {
-            country_admin_cap_add = 50
+            empire_size_penalty_mult = -0.50
             pop_environment_tolerance = 0.1
             planet_pop_assembly_mult = 0.075
             pop_growth_speed = 0.15
@@ -647,7 +647,7 @@ pony_stuff_gov_crystal_ponies = {
         }
 
         modifier = {
-            country_admin_cap_add = 25
+            empire_size_penalty_mult = -0.25
             planet_jobs_unity_produces_mult = 0.3
             num_tech_alternatives_add = 1
             leader_skill_levels = 1
@@ -690,7 +690,7 @@ pony_stuff_gov_crystal_ponies_hive = {
         }
 
         modifier = {
-            country_admin_cap_add = 25
+            empire_size_penalty_mult = -0.25
             planet_jobs_unity_produces_mult = 0.3
             num_tech_alternatives_add = 1
             leader_skill_levels = 2
@@ -789,7 +789,7 @@ pony_stuff_gov_refling = {
             ship_armor_regen_add_static = 0.5
             ship_hull_mult = 0.1
             country_trust_growth = 0.2
-            country_admin_cap_add = 20	
+            empire_size_penalty_mult = -0.20	
         }
 }
 

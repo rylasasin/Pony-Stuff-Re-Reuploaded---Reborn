@@ -1,4 +1,4 @@
-version="1.0.0"
+version="1.1.0"
 tags={
 	"Balance"
 	"Economy"
@@ -7,5 +7,4 @@ tags={
 	"Species"
 }
 name="Pony Stuff Re-Reuploaded - Reborn"
-supported_version="3.6.*"
-remote_file_id="2830683966"
+supported_version="3.7.*"
