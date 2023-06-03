@@ -1,0 +1,273 @@
+councilor_princess = {
+	leader_class = { governor admiral general }
+	is_leader_possible = {
+		OR = {
+			leader_class = governor
+			leader_class = admiral
+			leader_class = general
+		}
+	}
+	civic = pony_stuff_gov_united_ponies
+	modifier = {
+		country_base_influence_produces_add = 0.5
+		empire_size_mult = -0.02
+	}
+}
+
+councilor_princess_hive = {
+	leader_class = { governor admiral general }
+	is_leader_possible = {
+		OR = {
+			leader_class = governor
+			leader_class = admiral
+			leader_class = general
+		}
+	}
+	civic = pony_stuff_gov_united_ponies_hive
+	modifier = {
+		country_base_influence_produces_add = 0.5
+		empire_size_mult = -0.02
+	}
+}
+
+councilor_secretary = {
+	leader_class = { admiral general scientist governor }
+	is_leader_possible = {
+		OR = {
+			leader_class = admiral
+			leader_class = general
+			leader_class = scientist
+			leader_class = governor
+		}
+	}
+	civic = pony_stuff_gov_starlights_unity
+	modifier = {
+		planet_jobs_produces_mult = 0.02
+		planet_stability_add = 1
+	}
+}
+
+councilor_secretary_hive = {
+	leader_class = { admiral general scientist governor }
+	is_leader_possible = {
+		OR = {
+			leader_class = admiral
+			leader_class = general
+			leader_class = scientist
+			leader_class = governor
+		}
+	}
+	civic = pony_stuff_gov_starlights_unity_hive
+	modifier = {
+		planet_jobs_produces_mult = 0.02
+		planet_stability_add = 1
+	}
+}
+
+councilor_wonderbolt = {
+	leader_class = { admiral general }
+	is_leader_possible = {
+		OR = {
+			leader_class = admiral
+			leader_class = general
+		}
+	}
+	civic = pony_stuff_gov_pony_pegasus
+	modifier = {
+		army_defense_morale_mult = 0.05
+		army_defense_damage_mult = 0.10
+	}
+}
+
+councilor_elder = {
+	leader_class = { scientist governor }
+	is_leader_possible = {
+		OR = {
+			leader_class = scientist
+			leader_class = governor
+		}
+	}
+	civic = pony_stuff_gov_pony_earth
+	modifier = {
+		planet_farmers_food_produces_add = 0.25
+		ship_hull_regen_add_perc = 0.15
+	}
+}
+
+councilor_nobility = {
+	leader_class = { scientist governor }
+	is_leader_possible = {
+		OR = {
+			leader_class = scientist
+			leader_class = governor
+		}
+	}
+	civic = pony_stuff_gov_pony_unicorn
+	modifier = {
+		planet_stability_add = 2
+	}
+}
+
+councilor_queen = {
+	leader_class = { admiral general scientist governor }
+	is_leader_possible = {
+		OR = {
+			leader_class = admiral
+			leader_class = general
+			leader_class = scientist
+			leader_class = governor
+		}
+	}
+	civic = pony_stuff_gov_ling
+	modifier = {
+		empire_size_add = -2
+		country_leader_cap_add = 1
+	}
+}
+
+councilor_queen_hive = {
+	leader_class = { admiral general scientist governor }
+	is_leader_possible = {
+		OR = {
+			leader_class = admiral
+			leader_class = general
+			leader_class = scientist
+			leader_class = governor
+		}
+	}
+	civic = pony_stuff_gov_ling_hive
+	modifier = {
+		empire_size_add = -2
+		country_leader_cap_add = 1
+	}
+}
+
+councilor_defense_general = {
+	leader_class = { admiral general }
+	is_leader_possible = {
+		OR = {
+			leader_class = admiral
+			leader_class = general
+		}
+	}
+	civic = pony_stuff_gov_griffin
+	modifier = {
+		country_starbase_capacity_add = 1
+		command_limit_mult = 0.02
+	}
+}
+
+councilor_ghost = {
+	leader_class = { admiral general scientist governor }
+	is_leader_possible = {
+		OR = {
+			leader_class = admiral
+			leader_class = general
+			leader_class = scientist
+			leader_class = governor
+		}
+	}
+	civic = pony_stuff_gov_bat_ponies
+	modifier = {
+		ship_jumpdrive_cooldown_mult = -0.02
+		ship_ftl_jumpdrive_range_mult = 0.05
+	}
+}
+
+councilor_crystal_princess = {
+	leader_class = { admiral general scientist governor }
+	is_leader_possible = {
+		OR = {
+			leader_class = admiral
+			leader_class = general
+			leader_class = scientist
+			leader_class = governor
+		}
+	}
+	civic = pony_stuff_gov_crystal_ponies
+	modifier = {
+		country_unity_produces_mult = 0.02
+		councilor_exp_gain = 0.05
+	}
+}
+
+councilor_crystal_princess_hive = {
+	leader_class = { admiral general scientist governor }
+	is_leader_possible = {
+		OR = {
+			leader_class = admiral
+			leader_class = general
+			leader_class = scientist
+			leader_class = governor
+		}
+	}
+	civic = pony_stuff_gov_crystal_ponies_hive
+	modifier = {
+		country_unity_produces_mult = 0.02
+		councilor_exp_gain = 0.05
+	}
+}
+
+councilor_high_king = {
+	leader_class = { admiral general }
+	is_leader_possible = {
+		OR = {
+			leader_class = admiral
+			leader_class = general
+		}
+	}
+	civic = pony_stuff_gov_dragon
+	modifier = {
+		ship_shield_penetration_mult = 0.05
+		ship_armor_penetration_mult = 0.05
+	}
+}
+
+councilor_artist = {
+	leader_class = { scientist governor }
+	is_leader_possible = {
+		OR = {
+			leader_class = scientist
+			leader_class = governor
+		}
+	}
+	civic = pony_stuff_gov_refling
+	modifier = {
+		country_base_minor_artifacts_produces_add = 1
+		country_trust_cap_add = 15
+	}
+}
+
+councilor_preceptor = {
+	leader_class = { admiral general scientist governor }
+	is_leader_possible = {
+		OR = {
+			leader_class = admiral
+			leader_class = general
+			leader_class = scientist
+			leader_class = governor
+		}
+	}
+	civic = pony_stuff_gov_storm_king
+	modifier = {
+		starbase_trade_protection_add = 2
+		pop_amenities_usage_mult = -0.02
+	}
+}
+
+councilor_presbyter = {
+	leader_class = { admiral general scientist governor }
+	is_leader_possible = {
+		OR = {
+			leader_class = admiral
+			leader_class = general
+			leader_class = scientist
+			leader_class = governor
+		}
+	}
+	civic = pony_stuff_gov_kirin
+	modifier = {
+		pop_happiness = 1
+		planet_carry_cap_add = 1
+	}
+}

@@ -1,4 +1,3 @@
-
 empire_init_add_technologies = {
 	events = {
 		ps_starlight.2
