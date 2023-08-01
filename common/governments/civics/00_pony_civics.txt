@@ -460,8 +460,7 @@ pony_stuff_gov_ling = {
             country_pop_enslaved_mult = 0.1
             pop_cat_slave_political_power = -0.05
             pop_environment_tolerance = 0.05
-            planet_pop_assembly_organic_mult = 0.05
-            pop_growth_speed = 0.10
+            pop_growth_speed = 0.4
             ship_hull_regen_add_perc = 0.25
 			ship_hull_regen_add_static = 0.25
             ship_armor_regen_add_perc = 0.25
@@ -501,13 +500,13 @@ pony_stuff_gov_ling_hive = {
                     value = pony_stuff_gov_starlights_unity_hive
                 }
             }
-            ethics = { value = ethic_gestalt_consciousness }
+            authority = { value = auth_hive_mind }
         }
 
         modifier = {
             empire_size_penalty_mult = -0.50
             pop_environment_tolerance = 0.1
-            planet_pop_assembly_organic_mult = 0.075
+            planet_pop_assembly_organic_mult = 0.25
             pop_growth_speed = 0.15
             ship_hull_regen_add_perc = 0.25
 			ship_hull_regen_add_static = 0.5
@@ -518,6 +517,51 @@ pony_stuff_gov_ling_hive = {
         }
 }
 
+pony_stuff_gov_ling_robot = {
+    icon = "gfx/interface/icons/governments/ling.dds"
+    modification = no
+	random_weight = { base =  0 }
+
+        potential = {
+        }
+
+        possible = {
+            civics = {
+                NOR = {
+                    value = pony_stuff_gov_united_ponies
+                    value = pony_stuff_gov_starlights_unity
+                    value = pony_stuff_gov_pony_pegasus
+                    value = pony_stuff_gov_pony_earth
+                    value = pony_stuff_gov_pony_unicorn
+                    value = pony_stuff_gov_ling
+                    value = pony_stuff_gov_griffin
+                    value = pony_stuff_gov_bat_ponies
+                    value = pony_stuff_gov_crystal_ponies
+                    value = pony_stuff_gov_dragon
+                    value = pony_stuff_gov_refling
+                    value = pony_stuff_gov_storm_king
+                    value = pony_stuff_gov_kirin
+
+                    value = pony_stuff_gov_united_ponies_hive
+                    value = pony_stuff_gov_crystal_ponies_hive
+                    value = pony_stuff_gov_starlights_unity_hive
+                }
+            }
+            authority = { value = auth_machine_intelligence }
+        }
+
+        modifier = {
+            empire_size_penalty_mult = -0.50
+            pop_environment_tolerance = 0.1
+            planet_pop_assembly_mult = 0.4
+            ship_hull_regen_add_perc = 0.25
+			ship_hull_regen_add_static = 0.5
+            ship_armor_regen_add_perc = 0.25
+			ship_armor_regen_add_static = 0.5
+            country_naval_cap_mult = 0.1
+            country_command_limit_add = 10
+        }
+}
 ##############
 
 pony_stuff_gov_griffin = {
@@ -745,7 +789,6 @@ pony_stuff_gov_dragon = {
 }
 
 ##############
-
 pony_stuff_gov_refling = {
     icon = "gfx/interface/icons/governments/united_ponies.dds"
     modification = no
@@ -780,8 +823,101 @@ pony_stuff_gov_refling = {
 
         modifier = {
             pop_happiness = 0.25
-            planet_pop_assembly_organic_mult = 0.15
             pop_growth_speed = 0.3
+            country_naval_cap_mult = 0.1
+            ship_hull_regen_add_perc = 0.12
+            ship_armor_regen_add_static = 0.5
+            ship_hull_regen_add_perc = 0.12
+            ship_armor_regen_add_static = 0.5
+            ship_hull_mult = 0.1
+            country_trust_growth = 0.2
+            empire_size_penalty_mult = -0.20	
+        }
+}
+
+pony_stuff_gov_refling_hive = {
+    icon = "gfx/interface/icons/governments/united_ponies.dds"
+    modification = no
+	random_weight = { base =  0 }
+
+        potential = {
+        }
+
+        possible = {
+            civics = {
+                NOR = {
+                    value = pony_stuff_gov_united_ponies
+                    value = pony_stuff_gov_starlights_unity
+                    value = pony_stuff_gov_pony_pegasus
+                    value = pony_stuff_gov_pony_earth
+                    value = pony_stuff_gov_pony_unicorn
+                    value = pony_stuff_gov_ling
+                    value = pony_stuff_gov_griffin
+                    value = pony_stuff_gov_bat_ponies
+                    value = pony_stuff_gov_crystal_ponies
+                    value = pony_stuff_gov_dragon
+                    value = pony_stuff_gov_storm_king
+                    value = pony_stuff_gov_kirin
+
+                    value = pony_stuff_gov_united_ponies_hive
+                    value = pony_stuff_gov_ling_hive
+                    value = pony_stuff_gov_crystal_ponies_hive
+                    value = pony_stuff_gov_starlights_unity_hive
+                }
+            }
+        }
+	authority = { value = auth_hive_mind }
+
+        modifier = {
+            pop_happiness = 0.25
+            planet_pop_assembly_organic_mult = 0.1
+            pop_growth_speed = 0.2
+            country_naval_cap_mult = 0.1
+            ship_hull_regen_add_perc = 0.12
+            ship_armor_regen_add_static = 0.5
+            ship_hull_regen_add_perc = 0.12
+            ship_armor_regen_add_static = 0.5
+            ship_hull_mult = 0.1
+            country_trust_growth = 0.2
+            empire_size_penalty_mult = -0.20	
+        }
+}
+pony_stuff_gov_refling_robot = {
+    icon = "gfx/interface/icons/governments/united_ponies.dds"
+    modification = no
+	random_weight = { base =  0 }
+
+        potential = {
+        }
+
+        possible = {
+            civics = {
+                NOR = {
+                    value = pony_stuff_gov_united_ponies
+                    value = pony_stuff_gov_starlights_unity
+                    value = pony_stuff_gov_pony_pegasus
+                    value = pony_stuff_gov_pony_earth
+                    value = pony_stuff_gov_pony_unicorn
+                    value = pony_stuff_gov_ling
+                    value = pony_stuff_gov_griffin
+                    value = pony_stuff_gov_bat_ponies
+                    value = pony_stuff_gov_crystal_ponies
+                    value = pony_stuff_gov_dragon
+                    value = pony_stuff_gov_storm_king
+                    value = pony_stuff_gov_kirin
+
+                    value = pony_stuff_gov_united_ponies_hive
+                    value = pony_stuff_gov_ling_hive
+                    value = pony_stuff_gov_crystal_ponies_hive
+                    value = pony_stuff_gov_starlights_unity_hive
+                }
+            }
+        }
+	authority = { value = auth_machine_intelligence }
+
+        modifier = {
+            pop_happiness = 0.25
+            planet_pop_assembly_mult = 0.3
             country_naval_cap_mult = 0.1
             ship_hull_regen_add_perc = 0.12
             ship_armor_regen_add_static = 0.5
@@ -875,11 +1011,52 @@ pony_stuff_gov_kirin = {
         modifier = {
             planet_max_districts_add = 2
             planet_jobs_unity_produces_mult = 0.15
-            planet_pop_assembly_mult = 0.4
-            pop_growth_speed = 0.4
+            pop_growth_speed = 0.2
             planet_colony_development_speed_mult = 0.5
             colony_start_num_pops_add = 1
             pop_environment_tolerance = 0.05
+            pop_housing_usage_mult = -0.15
+            pop_amenities_usage_mult = -0.15
+        }
+}
+
+pony_stuff_gov_kirin_robot = {
+    icon = "gfx/interface/icons/governments/united_ponies.dds"
+    modification = no
+	random_weight = { base =  0 }
+
+        potential = {
+        }
+
+        possible = {
+            civics = {
+                NOR = {
+                    value = pony_stuff_gov_united_ponies
+                    value = pony_stuff_gov_starlights_unity
+                    value = pony_stuff_gov_pony_pegasus
+                    value = pony_stuff_gov_pony_earth
+                    value = pony_stuff_gov_pony_unicorn
+                    value = pony_stuff_gov_ling
+                    value = pony_stuff_gov_griffin
+                    value = pony_stuff_gov_bat_ponies
+                    value = pony_stuff_gov_crystal_ponies
+                    value = pony_stuff_gov_dragon
+                    value = pony_stuff_gov_refling
+
+                    value = pony_stuff_gov_united_ponies_hive
+                    value = pony_stuff_gov_ling_hive
+                    value = pony_stuff_gov_crystal_ponies_hive
+                    value = pony_stuff_gov_starlights_unity_hive
+                }
+            }
+        }
+
+        modifier = {
+            planet_max_districts_add = 2
+            planet_jobs_unity_produces_mult = 0.15
+            planet_pop_assembly_mult = 0.2
+            planet_colony_development_speed_mult = 0.5
+            colony_start_num_pops_add = 1
             pop_housing_usage_mult = -0.15
             pop_amenities_usage_mult = -0.15
         }
