@@ -79,6 +79,12 @@
  pony_stuff_gov_refling:0 "(PS) Reformed Changeling Monarchy"
  pony_stuff_gov_refling_desc:0 "§LInformation Classified or Missing.§!"
  
+ pony_stuff_gov_refling_hive:0 "(PS) Reformed Changeling Hive"
+ pony_stuff_gov_refling_hive_desc:0 "§LInformation Classified or Missing.§!"
+
+ pony_stuff_gov_refling_robot:0 "(PS) Reformed Changeling Mind"
+ pony_stuff_gov_refling_robot_desc:0 "§LInformation Classified or Missing.§!"
+ 
  pony_stuff_gov_ling_hive:0 "(PS) Changeling Hivemind"
  pony_stuff_gov_ling_hive_desc:0 "§LChangeling Hives are ruled by a single Queen. They despite other races, often forcing them to work in slavery or even devouring them. Some even say they transform other species into them...§!"
  
@@ -96,6 +102,9 @@
  
  pony_stuff_gov_kirin:0 "(PS) Kirin Monarchy"
  pony_stuff_gov_kirin_desc:0 "§LInformation Classified or Missing.§!"
+ 
+ pony_stuff_gov_kirin_robot:0 "(PS) Kirin Machine Mind"
+ pony_stuff_gov_kirin_robot_desc:0 "§LInformation Classified or Missing.§!"
  
  ps_stuff_gov_united_ponies_base:0 "Magic of Friendship!"
  ps_stuff_gov_starlight_base:0 "Growth of Togetherness"
