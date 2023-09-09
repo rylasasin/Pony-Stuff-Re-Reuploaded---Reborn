@@ -57,7 +57,8 @@ ps_starbase_united = {
 		}
 
 		produces = {
-			influence = 5
+			influence = 0.25
+			unity = 4
 		}
 
 		upkeep = {
@@ -124,7 +125,8 @@ ps_starbase_united_2 = {
 		}
 
 		produces = {
-			influence = 7.5
+			influence = 0.5
+			unity = 8
 		}
 
 		upkeep = {
@@ -191,7 +193,8 @@ ps_starbase_united_3 = {
 		}
 
 		produces = {
-			influence = 10
+			influence = 1
+			unity = 16
 		}
 
 		upkeep = {
@@ -256,7 +259,8 @@ ps_starbase_united_4 = {
 		}
 
 		produces = {
-			influence = 12.5
+			influence = 1.25
+			unity = 20
 		}
 
 		upkeep = {
@@ -3265,7 +3269,7 @@ ps_starbase_kirin = {
 
 		produces = {
             food = 8.125
-			unity = 9.825
+			unity = 4
 		}
 
 		upkeep = {
@@ -3328,7 +3332,7 @@ ps_starbase_kirin_2 = {
 
 		produces = {
             food = 16.5
-			unity = 16.25
+			unity = 8
 		}
 
 		upkeep = {
@@ -3391,7 +3395,7 @@ ps_starbase_kirin_3 = {
 
 		produces = {
             food = 25.875
-			unity = 24.575
+			unity = 12
 		}
 
 		upkeep = {
@@ -3452,7 +3456,7 @@ ps_starbase_kirin_4 = {
 
 		produces = {
             food = 35
-			unity = 32.5
+			unity = 16
 		}
 
 		upkeep = {
