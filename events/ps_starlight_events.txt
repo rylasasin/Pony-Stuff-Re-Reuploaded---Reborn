@@ -35,11 +35,19 @@ country_event = {
             give_technology = { tech = tech_unlock_civic_pony_unicorn message = no }
         }
         if = {
+            limit = { has_civic = pony_stuff_gov_pony_unicorn_hive }
+            give_technology = { tech = tech_unlock_civic_pony_unicorn message = no }
+        }
+        if = {
             limit = { has_civic = pony_stuff_gov_ling }
             give_technology = { tech = tech_unlock_civic_ling message = no }
         }
         if = {
             limit = { has_civic = pony_stuff_gov_ling_hive }
+            give_technology = { tech = tech_unlock_civic_ling message = no }
+        }
+        if = {
+            limit = { has_civic = pony_stuff_gov_ling_robot }
             give_technology = { tech = tech_unlock_civic_ling message = no }
         }
         if = {
@@ -67,11 +75,23 @@ country_event = {
             give_technology = { tech = tech_unlock_civic_refling message = no }
         }
         if = {
+            limit = { has_civic = pony_stuff_gov_refling_hive }
+            give_technology = { tech = tech_unlock_civic_refling message = no }
+        }
+        if = {
+            limit = { has_civic = pony_stuff_gov_refling_robot }
+            give_technology = { tech = tech_unlock_civic_refling message = no }
+        }
+        if = {
             limit = { has_civic = pony_stuff_gov_storm_king }
             give_technology = { tech = tech_unlock_civic_storm_king message = no }
         }
         if = {
             limit = { has_civic = pony_stuff_gov_kirin }
+            give_technology = { tech = tech_unlock_civic_kirin message = no }
+        }
+        if = {
+            limit = { has_civic = pony_stuff_gov_kirin_robot }
             give_technology = { tech = tech_unlock_civic_kirin message = no }
         }
 	}
@@ -405,7 +425,12 @@ event = {
 			}
             
             if = {
-                limit = { has_civic = pony_stuff_gov_pony_unicorn }
+                limit = { 
+					OR = { 
+						has_civic = pony_stuff_gov_pony_unicorn 
+						has_civic = pony_stuff_gov_pony_unicorn_hive 
+					}
+		}
                 every_owned_starbase = {
                     if = {
                         limit = { has_starbase_size >= starbase_starport has_starbase_size < starbase_starhold NOT = { has_starbase_building = ps_starbase_unicorn } }
@@ -788,7 +813,13 @@ event = {
 			}
             
             if = {
-                limit = { has_civic = pony_stuff_gov_refling }
+                limit = {
+			OR = { 
+				has_civic = pony_stuff_gov_refling 
+				has_civic = pony_stuff_gov_refling_hive 
+				has_civic = pony_stuff_gov_refling_robot
+			}			
+		}
                 every_owned_starbase = {
                     if = {
                         limit = { has_starbase_size >= starbase_starport has_starbase_size < starbase_starhold NOT = { has_starbase_building = ps_starbase_refling } }
@@ -916,7 +947,12 @@ event = {
 			}
             
             if = {
-                limit = { has_civic = pony_stuff_gov_kirin }
+                limit = { 
+			OR = { 
+				has_civic = pony_stuff_gov_kirin 
+				has_civic = pony_stuff_gov_kirin_robot
+			}
+		}
                 every_owned_starbase = {
                     if = {
                         limit = { has_starbase_size >= starbase_starport has_starbase_size < starbase_starhold NOT = { has_starbase_building = ps_starbase_kirin } }
