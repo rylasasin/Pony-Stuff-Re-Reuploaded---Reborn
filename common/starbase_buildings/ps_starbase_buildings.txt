@@ -45,8 +45,8 @@ ps_starbase_united = {
 			has_starbase_size < starbase_starhold
 		}
 		OR = {
-            owner = { has_civic = pony_stuff_gov_united_ponies }
-            owner = { has_civic = pony_stuff_gov_united_ponies_hive }
+          	  owner = { has_civic = pony_stuff_gov_united_ponies }
+        	  owner = { has_civic = pony_stuff_gov_united_ponies_hive }
 		}
 	}
 
@@ -101,8 +101,8 @@ ps_starbase_united_2 = {
 		has_starbase_size < starbase_starfortress
 		NOT = { has_starbase_building = ps_starbase_united_2 }
 		OR = {
-            owner = { has_civic = pony_stuff_gov_united_ponies }
-            owner = { has_civic = pony_stuff_gov_united_ponies_hive }
+            	owner = { has_civic = pony_stuff_gov_united_ponies }
+            	owner = { has_civic = pony_stuff_gov_united_ponies_hive }
 		}
 	}		
 	
@@ -1125,7 +1125,10 @@ ps_starbase_unicorn = {
  			has_starbase_size >= starbase_starport
 			has_starbase_size < starbase_starhold
  		NOT = { has_starbase_building = ps_starbase_unicorn }	
-       owner = { has_civic = pony_stuff_gov_pony_unicorn }
+      		OR = { 
+		owner = { has_civic = pony_stuff_gov_pony_unicorn }
+		owner = { has_civic = pony_stuff_gov_pony_unicorn_hive }
+		}
 	}		
 	
 	possible = {
@@ -1134,7 +1137,10 @@ ps_starbase_unicorn = {
 			has_starbase_size >= starbase_starport
 			has_starbase_size < starbase_starhold
 		}
-        owner = { has_civic = pony_stuff_gov_pony_unicorn }
+      		OR = { 
+		owner = { has_civic = pony_stuff_gov_pony_unicorn }
+		owner = { has_civic = pony_stuff_gov_pony_unicorn_hive }
+		}
 	}
 
 	resources = {
@@ -1189,7 +1195,10 @@ ps_starbase_unicorn_2 = {
 	potential = {
 		exists = owner
  		NOT = { has_starbase_building = ps_starbase_unicorn_2 }	
-        owner = { has_civic = pony_stuff_gov_pony_unicorn }
+      		OR = { 
+		owner = { has_civic = pony_stuff_gov_pony_unicorn }
+		owner = { has_civic = pony_stuff_gov_pony_unicorn_hive }
+		}
 			has_starbase_size >= starbase_starhold
 			has_starbase_size < starbase_starfortress
 	}		
@@ -1200,7 +1209,10 @@ ps_starbase_unicorn_2 = {
 			has_starbase_size >= starbase_starhold
 			has_starbase_size < starbase_starfortress
 		}
-        owner = { has_civic = pony_stuff_gov_pony_unicorn }
+      		OR = { 
+		owner = { has_civic = pony_stuff_gov_pony_unicorn }
+		owner = { has_civic = pony_stuff_gov_pony_unicorn_hive }
+		}
 	}
 
 	resources = {
@@ -1255,7 +1267,10 @@ ps_starbase_unicorn_3 = {
 	potential = {
 		exists = owner
  		NOT = { has_starbase_building = ps_starbase_unicorn_3 }	
-        owner = { has_civic = pony_stuff_gov_pony_unicorn }
+      		OR = { 
+		owner = { has_civic = pony_stuff_gov_pony_unicorn }
+		owner = { has_civic = pony_stuff_gov_pony_unicorn_hive }
+		}
 			has_starbase_size >= starbase_starfortress
 			has_starbase_size < starbase_citadel
 	}		
@@ -1266,7 +1281,10 @@ ps_starbase_unicorn_3 = {
 			has_starbase_size >= starbase_starfortress
 			has_starbase_size < starbase_citadel
 		}
-        owner = { has_civic = pony_stuff_gov_pony_unicorn }
+      		OR = { 
+		owner = { has_civic = pony_stuff_gov_pony_unicorn }
+		owner = { has_civic = pony_stuff_gov_pony_unicorn_hive }
+		}
 	}
 
 	resources = {
@@ -1322,7 +1340,10 @@ ps_starbase_unicorn_4 = {
 		exists = owner
  		NOT = { has_starbase_building = ps_starbase_unicorn_4 }	
 			has_starbase_size >= starbase_citadel
-        owner = { has_civic = pony_stuff_gov_pony_unicorn }
+      		OR = { 
+		owner = { has_civic = pony_stuff_gov_pony_unicorn }
+		owner = { has_civic = pony_stuff_gov_pony_unicorn_hive }
+		}
 	}		
 	
 	possible = {
@@ -1330,7 +1351,10 @@ ps_starbase_unicorn_4 = {
 			fail_text = "requires_citadel"
 			has_starbase_size >= starbase_citadel
 		}
-        owner = { has_civic = pony_stuff_gov_pony_unicorn }
+      		OR = { 
+		owner = { has_civic = pony_stuff_gov_pony_unicorn }
+		owner = { has_civic = pony_stuff_gov_pony_unicorn_hive }
+		}
 	}
 
 	resources = {
@@ -1396,6 +1420,7 @@ ps_starbase_ling = {
 		OR = {
             owner = { has_civic = pony_stuff_gov_ling }
             owner = { has_civic = pony_stuff_gov_ling_hive }
+            owner = { has_civic = pony_stuff_gov_ling_robot }
         }
 	}		
 	
@@ -1408,6 +1433,7 @@ ps_starbase_ling = {
 		OR = {
             owner = { has_civic = pony_stuff_gov_ling }
             owner = { has_civic = pony_stuff_gov_ling_hive }
+            owner = { has_civic = pony_stuff_gov_ling_robot }
         }
 	}
 
@@ -1465,6 +1491,7 @@ ps_starbase_ling_2 = {
 		OR = {
             owner = { has_civic = pony_stuff_gov_ling }
             owner = { has_civic = pony_stuff_gov_ling_hive }
+            owner = { has_civic = pony_stuff_gov_ling_robot }
         }
 	}		
 	
@@ -1477,6 +1504,7 @@ ps_starbase_ling_2 = {
 		OR = {
             owner = { has_civic = pony_stuff_gov_ling }
             owner = { has_civic = pony_stuff_gov_ling_hive }
+            owner = { has_civic = pony_stuff_gov_ling_robot }
         }
 	}
 
@@ -1534,6 +1562,7 @@ ps_starbase_ling_3 = {
 		OR = {
             owner = { has_civic = pony_stuff_gov_ling }
             owner = { has_civic = pony_stuff_gov_ling_hive }
+            owner = { has_civic = pony_stuff_gov_ling_robot }
         }
 	}		
 	
@@ -1546,6 +1575,7 @@ ps_starbase_ling_3 = {
 		OR = {
             owner = { has_civic = pony_stuff_gov_ling }
             owner = { has_civic = pony_stuff_gov_ling_hive }
+            owner = { has_civic = pony_stuff_gov_ling_robot }
         }
 	}
 
@@ -1602,7 +1632,8 @@ ps_starbase_ling_4 = {
 		OR = {
             owner = { has_civic = pony_stuff_gov_ling }
             owner = { has_civic = pony_stuff_gov_ling_hive }
-        }
+            owner = { has_civic = pony_stuff_gov_ling_robot }
+      	  }
 	}		
 	
 	possible = {
@@ -1613,6 +1644,7 @@ ps_starbase_ling_4 = {
 		OR = {
             owner = { has_civic = pony_stuff_gov_ling }
             owner = { has_civic = pony_stuff_gov_ling_hive }
+            owner = { has_civic = pony_stuff_gov_ling_robot }
         }
 	}
 
@@ -2725,7 +2757,11 @@ ps_starbase_refling = {
 			has_starbase_size >= starbase_starport
 			has_starbase_size < starbase_starhold
  		NOT = { has_starbase_building = ps_starbase_refling }	
-        owner = { has_civic = pony_stuff_gov_refling }
+        	OR = { 
+		owner = { has_civic = pony_stuff_gov_refling }
+		owner = { has_civic = pony_stuff_gov_refling_hive }
+		owner = { has_civic = pony_stuff_gov_refling_robot }
+		}
 	}		
 	
 	possible = {
@@ -3249,7 +3285,10 @@ ps_starbase_kirin = {
 		has_starbase_size >= starbase_starport
 		has_starbase_size < starbase_starhold
   		NOT = { has_starbase_building = ps_starbase_kirin }
-       owner = { has_civic = pony_stuff_gov_kirin }
+    		OR = {
+		owner = { has_civic = pony_stuff_gov_kirin }
+		owner = { has_civic = pony_stuff_gov_kirin_robot }
+		}
 	}		
 	
 	possible = {
@@ -3258,7 +3297,10 @@ ps_starbase_kirin = {
 			has_starbase_size >= starbase_starport
 			has_starbase_size < starbase_starhold
 		}
-        owner = { has_civic = pony_stuff_gov_kirin }
+    		OR = {
+		owner = { has_civic = pony_stuff_gov_kirin }
+		owner = { has_civic = pony_stuff_gov_kirin_robot }
+		}
 	}
 
 	resources = {
@@ -3312,7 +3354,10 @@ ps_starbase_kirin_2 = {
 		has_starbase_size >= starbase_starhold
 		has_starbase_size < starbase_starfortress
   		NOT = { has_starbase_building = ps_starbase_kirin_2 }
-        owner = { has_civic = pony_stuff_gov_kirin }
+    		OR = {
+		owner = { has_civic = pony_stuff_gov_kirin }
+		owner = { has_civic = pony_stuff_gov_kirin_robot }
+		}
 	}		
 	
 	possible = {
@@ -3321,7 +3366,10 @@ ps_starbase_kirin_2 = {
 			has_starbase_size >= starbase_starhold
 			has_starbase_size < starbase_starfortress
 		}
-        owner = { has_civic = pony_stuff_gov_kirin }
+    		OR = {
+		owner = { has_civic = pony_stuff_gov_kirin }
+		owner = { has_civic = pony_stuff_gov_kirin_robot }
+		}
 	}
 
 	resources = {
@@ -3375,7 +3423,10 @@ ps_starbase_kirin_3 = {
 			has_starbase_size >= starbase_starfortress
 			has_starbase_size < starbase_citadel
    		NOT = { has_starbase_building = ps_starbase_kirin_3 }
-       owner = { has_civic = pony_stuff_gov_kirin }
+    		OR = {
+		owner = { has_civic = pony_stuff_gov_kirin }
+		owner = { has_civic = pony_stuff_gov_kirin_robot }
+		}
 	}		
 	
 	possible = {
@@ -3384,7 +3435,10 @@ ps_starbase_kirin_3 = {
 			has_starbase_size >= starbase_starfortress
 			has_starbase_size < starbase_citadel
 		}
-        owner = { has_civic = pony_stuff_gov_kirin }
+    		OR = {
+		owner = { has_civic = pony_stuff_gov_kirin }
+		owner = { has_civic = pony_stuff_gov_kirin_robot }
+		}
 	}
 
 	resources = {
@@ -3437,7 +3491,10 @@ ps_starbase_kirin_4 = {
 		exists = owner
 			has_starbase_size >= starbase_citadel
   		NOT = { has_starbase_building = ps_starbase_kirin_4 }
-        owner = { has_civic = pony_stuff_gov_kirin }
+    		OR = {
+		owner = { has_civic = pony_stuff_gov_kirin }
+		owner = { has_civic = pony_stuff_gov_kirin_robot }
+		}
 	}		
 	
 	possible = {
@@ -3445,7 +3502,10 @@ ps_starbase_kirin_4 = {
 			fail_text = "requires_citadel"
 			has_starbase_size >= starbase_citadel
 		}
-        owner = { has_civic = pony_stuff_gov_kirin }
+    		OR = {
+		owner = { has_civic = pony_stuff_gov_kirin }
+		owner = { has_civic = pony_stuff_gov_kirin_robot }
+		}
 	}
 
 	resources = {
