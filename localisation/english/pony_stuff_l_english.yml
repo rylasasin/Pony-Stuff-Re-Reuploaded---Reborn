@@ -61,8 +61,14 @@
  pony_stuff_gov_pony_unicorn:0 "(PS) Royal Unicorn Monarchy"
  pony_stuff_gov_pony_unicorn_desc:0 "§LKnowledge is power and the Unicorns sure have alot of it. Being the only known species capable of using natural magic, those smart ponies are always in pursuit of better technology. It is speculated that the Unicorns were the first ponies that developed the means of traveling in space.§!"
 
+ pony_stuff_gov_pony_unicorn_robot:0 "(PS) Royal Unicorn Machine Mind"
+ pony_stuff_gov_pony_unicorn_robot_desc:0 "§LKnowledge is power and the Unicorns sure have alot of it. Being the only known species capable of using natural magic, those smart ponies are always in pursuit of better technology. It is speculated that the Unicorns were the first ponies that developed the means of traveling in space.§!"
+
  pony_stuff_gov_ling:0 "(PS) Changeling Hivemind"
  pony_stuff_gov_ling_desc:0 "§LChangeling Hives are ruled by a single Queen. They despite other races, often forcing them to work in slavery or even devouring them. Some even say they transform other species into them...§!"
+
+ pony_stuff_gov_ling_robot:0 "(PS) Changeling Machine Mind"
+ pony_stuff_gov_ling_robot_desc:0 "§LChangeling Hives are ruled by a single Queen. They despite other races, often forcing them to work in slavery or even devouring them. Some even say they transform other species into them...§!"
 
  pony_stuff_gov_griffin:0 "(PS) Griffin Monarchy"
  pony_stuff_gov_griffin_desc:0 "§LNot much is known about the Griffin Empire. They often keep to them self, threatening anyone who comes too close to their borders. Due to their preference to stay alone and isolated, their sectors are heavily fortified with defensive platforms.§!"
