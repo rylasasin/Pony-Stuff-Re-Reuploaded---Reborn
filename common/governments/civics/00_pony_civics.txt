@@ -864,6 +864,7 @@ pony_stuff_gov_refling = {
                     value = pony_stuff_gov_starlights_unity_hive
                 }
             }
+            ethics = { NOT = { value = ethic_gestalt_consciousness } }
         }
 
         modifier = {
@@ -910,8 +911,8 @@ pony_stuff_gov_refling_hive = {
                     value = pony_stuff_gov_starlights_unity_hive
                 }
             }
-        }
 	authority = { value = auth_hive_mind }
+        }
 
         modifier = {
             pop_happiness = 0.25
@@ -957,8 +958,8 @@ pony_stuff_gov_refling_robot = {
                     value = pony_stuff_gov_starlights_unity_hive
                 }
             }
-        }
 	authority = { value = auth_machine_intelligence }
+        }
 
         modifier = {
             pop_happiness = 0.25
@@ -1051,6 +1052,7 @@ pony_stuff_gov_kirin = {
                     value = pony_stuff_gov_starlights_unity_hive
                 }
             }
+	authority = NOT = { { value = auth_machine_intelligence } }
         }
 
         modifier = {
@@ -1094,6 +1096,7 @@ pony_stuff_gov_kirin_robot = {
                     value = pony_stuff_gov_starlights_unity_hive
                 }
             }
+	authority = { value = auth_machine_intelligence }
         }
 
         modifier = {
