@@ -1,6 +1,6 @@
 ps_stuff_gov_united_ponies_base = {
 		hide_from_country_list = yes
-        country_base_influence_produces_add = 0.25
+        country_base_influence_produces_add = 0.1
         ships_upkeep_mult = -0.0125
         starbases_upkeep_mult = -0.0125
         planet_structures_upkeep_mult = -0.0125
@@ -35,8 +35,8 @@ ps_stuff_gov_unicorn_base = {
 ps_stuff_gov_ling_base = {
         hide_from_country_list = yes
 		country_base_influence_produces_add = 0.2
-		country_naval_cap_add = 14
-		country_command_limit_add = 6
+		country_naval_cap_add = 4
+		country_command_limit_add = 2
 }
 #.1 per tier
 
@@ -67,8 +67,8 @@ ps_stuff_gov_dragon_base = {
 ps_stuff_gov_refling_base = {
         hide_from_country_list = yes
 		country_base_influence_produces_add = 0.2
-		country_naval_cap_add = 14
-		country_command_limit_add = 6
+		country_naval_cap_add = 4
+		country_command_limit_add = 2
 }
 #.1 per tier
 

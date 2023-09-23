@@ -57,7 +57,8 @@ ps_starbase_united = {
 		}
 
 		produces = {
-			influence = 5
+			influence = 0.25
+			unity = 4
 		}
 
 		upkeep = {
@@ -124,7 +125,8 @@ ps_starbase_united_2 = {
 		}
 
 		produces = {
-			influence = 7.5
+			influence = 0.5
+			unity = 8
 		}
 
 		upkeep = {
@@ -191,7 +193,8 @@ ps_starbase_united_3 = {
 		}
 
 		produces = {
-			influence = 10
+			influence = 1
+			unity = 16
 		}
 
 		upkeep = {
@@ -256,7 +259,8 @@ ps_starbase_united_4 = {
 		}
 
 		produces = {
-			influence = 12.5
+			influence = 1.25
+			unity = 20
 		}
 
 		upkeep = {
@@ -3264,8 +3268,8 @@ ps_starbase_kirin = {
 		}
 
 		produces = {
-            food = 7.5
-			unity = 8.75
+            food = 8.125
+			unity = 4
 		}
 
 		upkeep = {
@@ -3283,8 +3287,6 @@ ps_starbase_kirin = {
 	}
 	
 	system_modifier = {
-        planet_pop_assembly_mult = 0.1
-        pop_growth_speed = 0.1
         pop_housing_usage_mult = -0.025
         pop_amenities_usage_mult = -0.025
 	}
@@ -3329,8 +3331,8 @@ ps_starbase_kirin_2 = {
 		}
 
 		produces = {
-            food = 15
-			unity = 15
+            food = 16.5
+			unity = 8
 		}
 
 		upkeep = {
@@ -3348,8 +3350,6 @@ ps_starbase_kirin_2 = {
 	}
 	
 	system_modifier = {
-        planet_pop_assembly_mult = 0.2
-        pop_growth_speed = 0.2
         pop_housing_usage_mult = -0.05
         pop_amenities_usage_mult = -0.05
 	}
@@ -3394,8 +3394,8 @@ ps_starbase_kirin_3 = {
 		}
 
 		produces = {
-            food = 22.5
-			unity = 21.25
+            food = 25.875
+			unity = 12
 		}
 
 		upkeep = {
@@ -3413,8 +3413,6 @@ ps_starbase_kirin_3 = {
 	}
 	
 	system_modifier = {
-        planet_pop_assembly_mult = 0.3
-        pop_growth_speed = 0.3
         pop_housing_usage_mult = -0.075
         pop_amenities_usage_mult = -0.075
 	}
@@ -3457,8 +3455,8 @@ ps_starbase_kirin_4 = {
 		}
 
 		produces = {
-            food = 30
-			unity = 27.5
+            food = 35
+			unity = 16
 		}
 
 		upkeep = {
@@ -3476,8 +3474,6 @@ ps_starbase_kirin_4 = {
 	}
 	
 	system_modifier = {
-        planet_pop_assembly_mult = 0.4
-        pop_growth_speed = 0.4
         pop_housing_usage_mult = -0.1
         pop_amenities_usage_mult = -0.1
 	}
