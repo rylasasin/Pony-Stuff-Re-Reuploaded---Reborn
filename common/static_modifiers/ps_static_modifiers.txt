@@ -35,8 +35,8 @@ ps_stuff_gov_unicorn_base = {
 ps_stuff_gov_ling_base = {
         hide_from_country_list = yes
 		country_base_influence_produces_add = 0.2
-		country_naval_cap_add = 4
-		country_command_limit_add = 2
+		country_naval_cap_add = 2
+		country_command_limit_add = 1
 }
 #.1 per tier
 
@@ -67,8 +67,8 @@ ps_stuff_gov_dragon_base = {
 ps_stuff_gov_refling_base = {
         hide_from_country_list = yes
 		country_base_influence_produces_add = 0.2
-		country_naval_cap_add = 4
-		country_command_limit_add = 2
+		country_naval_cap_add = 2
+		country_command_limit_add = 1
 }
 #.1 per tier
 
