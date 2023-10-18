@@ -1454,8 +1454,8 @@ ps_starbase_ling = {
 	
 	station_modifier = {
 		starbase_shipyard_capacity_add = 1
-        starbase_shipyard_build_speed_mult = 0.05
-		starbase_shipyard_build_cost_mult = -0.05
+        starbase_shipyard_build_speed_mult = 0.016
+		starbase_shipyard_build_cost_mult = -0.016
 	}
 	
 	orbit_modifier = {
@@ -1525,8 +1525,8 @@ ps_starbase_ling_2 = {
 	
 	station_modifier = {
 		starbase_shipyard_capacity_add = 2
-        starbase_shipyard_build_speed_mult = 0.1
-		starbase_shipyard_build_cost_mult = -0.1
+        starbase_shipyard_build_speed_mult = 0.34
+		starbase_shipyard_build_cost_mult = -0.34
 	}
 	
 	orbit_modifier = {
@@ -1596,8 +1596,8 @@ ps_starbase_ling_3 = {
 	
 	station_modifier = {
 		starbase_shipyard_capacity_add = 3
-        starbase_shipyard_build_speed_mult = 0.15
-		starbase_shipyard_build_cost_mult = -0.15
+        starbase_shipyard_build_speed_mult = 0.05
+		starbase_shipyard_build_cost_mult = -0.05
 	}
 	
 	orbit_modifier = {
@@ -1665,8 +1665,8 @@ ps_starbase_ling_4 = {
 	
 	station_modifier = {
 		starbase_shipyard_capacity_add = 4
-        starbase_shipyard_build_speed_mult = 0.2
-		starbase_shipyard_build_cost_mult = -0.2
+        starbase_shipyard_build_speed_mult = 0.067
+		starbase_shipyard_build_cost_mult = -0.067
 	}
 	
 	orbit_modifier = {
@@ -2790,8 +2790,8 @@ ps_starbase_refling = {
 	
 	station_modifier = {
 		starbase_shipyard_capacity_add = 1
-        starbase_shipyard_build_speed_mult = 0.025
-		starbase_shipyard_build_cost_mult = -0.025
+        starbase_shipyard_build_speed_mult = 0.0084
+		starbase_shipyard_build_cost_mult = -0.0084
 	}
 	
 	orbit_modifier = {
@@ -2854,8 +2854,8 @@ ps_starbase_refling_2 = {
 	
 	station_modifier = {
 		starbase_shipyard_capacity_add = 2
-        starbase_shipyard_build_speed_mult = 0.05
-		starbase_shipyard_build_cost_mult = -0.05
+        starbase_shipyard_build_speed_mult = 0.0167
+		starbase_shipyard_build_cost_mult = -0.0167
 	}
 	
 	orbit_modifier = {
@@ -2918,8 +2918,8 @@ ps_starbase_refling_3 = {
 	
 	station_modifier = {
 		starbase_shipyard_capacity_add = 3
-        starbase_shipyard_build_speed_mult = 0.075
-		starbase_shipyard_build_cost_mult = -0.075
+        starbase_shipyard_build_speed_mult = 0.025
+		starbase_shipyard_build_cost_mult = -0.025
 	}
 	
 	orbit_modifier = {
@@ -2980,8 +2980,8 @@ ps_starbase_refling_4 = {
 	
 	station_modifier = {
 		starbase_shipyard_capacity_add = 4
-        starbase_shipyard_build_speed_mult = 0.1
-		starbase_shipyard_build_cost_mult = -0.1
+        starbase_shipyard_build_speed_mult = 0.034
+		starbase_shipyard_build_cost_mult = -0.034
 	}
 	
 	orbit_modifier = {
